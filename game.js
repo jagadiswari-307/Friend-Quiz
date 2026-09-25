@@ -135,7 +135,7 @@ function loadQuestion() {
         "Choose wisely...";
 
     nextBtn.style.display =
-        "none";
+        "flex";
 
     createAnswers(question);
 

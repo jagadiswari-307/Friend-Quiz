@@ -421,36 +421,112 @@ h1 em {
     }
 }
 
-/* MOBILE */
+/* ================= MOBILE ================= */
 
-@media (max-width: 600px) {
+@media (max-width: 650px) {
 
-    .quiz-intro {
-        width: 86%;
-        min-height: 560px;
-        padding: 45px 25px;
-        border-radius: 30px;
-
-        box-shadow:
-            7px 7px 0 #86aee7,
-            13px 13px 0 #f1cc68;
+    .game-page {
+        min-height: 100vh;
+        height: auto;
+        padding: 25px 5% 30px;
+        overflow-x: hidden;
+        overflow-y: auto;
     }
 
-    h1 {
-        font-size: 48px;
+    .game-header {
+        width: 100%;
     }
 
-    .one {
-        left: 7%;
+    .round-info strong {
+        font-size: 21px;
     }
 
-    .two {
-        right: 7%;
+    .progress-area {
+        width: 100%;
+        margin-top: 22px;
     }
 
-    .five,
-    .seven {
+    .round-intro {
+        width: 100%;
+        min-height: 350px;
+        padding: 35px 25px;
+        margin-top: 35px;
+    }
+
+    .round-intro h1 {
+        font-size: 45px;
+    }
+
+    .question-card {
+        width: 100%;
+        padding: 30px 22px;
+        margin-top: 30px;
+        margin-bottom: 15px;
+        overflow: visible;
+        box-sizing: border-box;
+    }
+
+    .question-card h2 {
+        font-size: 30px;
+        line-height: 1.15;
+    }
+
+    .answers {
+        width: 100%;
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    .answer {
+        width: 100%;
+        min-height: 60px;
+        height: auto;
+        padding: 12px 13px;
+        box-sizing: border-box;
+    }
+
+    .answer-text {
+        font-size: 12px;
+        line-height: 1.4;
+    }
+
+    .answer-reaction {
+        min-height: 25px;
+        margin-top: 16px;
+        margin-bottom: 8px;
+        text-align: center;
+    }
+
+    .next-btn {
         display: none;
+        width: 100%;
+        min-height: 54px;
+        margin: 15px auto 5px;
+        padding: 12px 18px;
+        position: relative;
+        z-index: 20;
+        box-sizing: border-box;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .score-box {
+        min-width: 72px;
+        padding: 8px 10px;
+    }
+
+    .game-footer {
+        margin-top: 20px;
+        padding-top: 15px;
+        padding-bottom: 10px;
+    }
+
+    .game-shape-one {
+        left: 2%;
+    }
+
+    .game-shape-two {
+        right: 2%;
     }
 }
 /* ================= ACCESS PAGE ================= */

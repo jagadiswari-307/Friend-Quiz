@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Friend Quiz</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="game-page">
+
+        <!-- BACKGROUND DECORATIONS -->
+
+        <div class="game-shape game-shape-one">✦</div>
+        <div class="game-shape game-shape-two">✧</div>
+        <div class="game-shape game-shape-three"></div>
+        <div class="game-shape game-shape-four"></div>
+        <div class="game-shape game-shape-five"></div>
+
+
+        <!-- TOP BAR -->
+
+        <header class="game-header">
+
+            <div class="round-info">
+
+                <span class="small-label">
+                    FRIENDSHIP TEST
+                </span>
+
+                <strong id="roundNumber">
+                    ROUND 1 / 5
+                </strong>
+
+            </div>
+
+
+            <div class="score-box">
+
+                <span>
+                    SCORE
+                </span>
+
+                <strong id="score">
+                    0
+                </strong>
+
+            </div>
+
+        </header>
+
+
+        <!-- PROGRESS -->
+
+        <div class="progress-area">
+
+            <div class="progress-text">
+
+                <span id="questionCount">
+                    QUESTION 1 / 20
+                </span>
+
+                <span id="percentage">
+                    0%
+                </span>
+
+            </div>
+
+            <div class="progress-track">
+
+                <div
+                    class="progress-fill"
+                    id="progressFill">
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- ROUND INTRO -->
+
+        <section
+            class="round-intro"
+            id="roundIntro">
+
+            <p class="round-tag">
+                ROUND 1
+            </p>
+
+            <h1 id="roundTitle">
+                Surely You Know This
+            </h1>
+
+            <p id="roundSubtitle">
+                We've known each other long enough...
+            </p>
+
+            <button
+                class="continue-btn"
+                id="continueBtn">
+
+                LET'S GO
+
+                <span>→</span>
+
+            </button>
+
+        </section>
+
+
+        <!-- QUESTION CARD -->
+
+        <section
+            class="question-card"
+            id="questionCard">
+
+            <div class="question-number">
+                Q<span id="currentQuestion">1</span>
+            </div>
+
+            <h2 id="questionText">
+                Question goes here
+            </h2>
+
+
+            <div
+                class="answers"
+                id="answers">
+
+                <button class="answer">
+                    <span class="answer-letter">A</span>
+                    <span class="answer-text">Answer</span>
+                </button>
+
+                <button class="answer">
+                    <span class="answer-letter">B</span>
+                    <span class="answer-text">Answer</span>
+                </button>
+
+                <button class="answer">
+                    <span class="answer-letter">C</span>
+                    <span class="answer-text">Answer</span>
+                </button>
+
+                <button class="answer">
+                    <span class="answer-letter">D</span>
+                    <span class="answer-text">Answer</span>
+                </button>
+
+            </div>
+
+
+            <div
+                class="answer-reaction"
+                id="answerReaction">
+
+                <span id="reactionIcon">
+                    ✨
+                </span>
+
+                <span id="reactionText">
+                    Choose wisely...
+                </span>
+
+            </div>
+
+        </section>
+
+
+        <!-- NEXT BUTTON -->
+
+        <button
+            class="next-btn"
+            id="nextBtn">
+
+            NEXT
+
+            <span>→</span>
+
+        </button>
+
+
+        <!-- BOTTOM MESSAGE -->
+
+        <p class="game-footer">
+            Choose carefully. Your friendship depends on it.
+        </p>
+
+
+    </main>
+
+
+    <script src="config.js"></script>
+    <script src="game.js"></script>
+
+</body>
+</html>

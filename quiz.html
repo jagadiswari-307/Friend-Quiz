@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>You've Been Invited</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="access-page">
+
+        <div class="access-shape shape-one">✦</div>
+        <div class="access-shape shape-two">✧</div>
+        <div class="access-shape shape-three"></div>
+        <div class="access-shape shape-four"></div>
+        <div class="access-shape shape-five"></div>
+
+        <section class="access-card">
+
+            <p class="access-label">PRIVATE ENTRY</p>
+
+            <div class="lock-icon">
+                🔐
+            </div>
+
+            <h1>
+                Wait...
+            </h1>
+
+            <p class="access-title">
+                Are you actually<br>
+                <em>supposed to be here?</em>
+            </p>
+
+            <p class="access-text">
+                This quiz isn't for just anyone.
+                Enter your secret code to find out.
+            </p>
+
+            <div class="code-box">
+                <input
+                    type="text"
+                    id="secretCode"
+                    placeholder="ENTER YOUR CODE"
+                    maxlength="20"
+                    autocomplete="off"
+                >
+
+                <button id="unlockBtn">
+                    UNLOCK
+                    <span>→</span>
+                </button>
+            </div>
+
+            <p id="errorMessage" class="error-message"></p>
+
+            <p class="access-hint">
+                Hint: You should probably know the code.
+            </p>
+
+        </section>
+
+    </main>
+
+   <script src="config.js"></script>
+<script src="quiz.js"></script>
+
+</body>
+</html>

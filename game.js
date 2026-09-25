@@ -267,7 +267,7 @@ function chooseAnswer(
     }
 
     nextBtn.style.display =
-        "block";
+        "flex";
 }
 
 

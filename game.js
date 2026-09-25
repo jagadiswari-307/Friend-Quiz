@@ -65,7 +65,7 @@ function showRoundIntro(roundNumberValue) {
 
     roundIntro.style.display = "flex";
     questionCard.style.display = "none";
-    nextBtn.style.display = "flex";
+    nextBtn.style.display = "none";
 
     roundNumber.textContent =
         `ROUND ${round.round} / ${person.questions.length}`;

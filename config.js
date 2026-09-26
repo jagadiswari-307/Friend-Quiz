@@ -224,27 +224,27 @@ window.people = {
                 questions: [
 
                     {
-                        question: "What is my favorite Song?",
-                        options: ["Mooga Manasulu", "Bangaru Kalla", "Chukkalini Taake", "Aakasam Lona"],
+                        question: "Who is my favourite hero?",
+                        options: ["Nani", "Surya", "Ramcharan", "Mahaessh Babu"],
                         answer: 0
                     },
 
                     {
-                        question: "What is my favourite Hobby?",
-                        options: ["Writing", "Listening to music", "Sketching", "Crafting"],
+                        question: "Who is my favourite Spider-Man?",
+                        options: ["Tobey Maguire", "Andrew Garfield", "Tom-Holland", "All of these"],
                         answer: 2
                     },
 
                     {
-                        question: "What is my most used word?",
-                        options: ["Odiyamma", "Chirakga undi", "manasu baledu", "None of these"],
-                        answer: 0
+                        question: "What is my favourite food?",
+                        options: ["Maggie", "Biryani", "Crab curry", "All of these"],
+                        answer: 2
                     },
 
                     {
-                        question: "What is my usual mood?",
-                        options: ["Calm", "Chaotic", "Serious", "Mysterious"],
-                        answer: 2
+                        question: "What is my favourite holiday",
+                        options: ["Dushera", "Sankranti", "Diwali", "Vinayaka Chaviti"],
+                        answer: 3
                     }
 
                 ]
@@ -258,9 +258,9 @@ window.people = {
                 questions: [
 
                     {
-                        question: "Who is my favourite Disney princess?",
+                        question: "Who is my second favourite Disney princess?",
                         options: ["Cinderella", "Ariel", "Mulan", "Rapunzel"],
-                        answer: 3
+                        answer: 0
                     },
 
                     {
